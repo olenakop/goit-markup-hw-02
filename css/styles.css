@@ -12,8 +12,10 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: -0.015em;
   font-style: normal;
-  font-size: 18px;
-  line-height: 1.67;
+  font-size: 14px;
+  line-height: 1.14;
+
+  letter-spacing: 0.02em;
 }
 h2 {
   font-weight: bold;
@@ -48,15 +50,16 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+}
+.site-nav a {
   text-decoration: none;
 }
 .site-nav {
   list-style: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   color: var(--accent-color);
 }
 
@@ -76,16 +79,16 @@ a {
   color: var(--accent-color);
 }
 
-.filter {
+.list-works {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+}
+.filter {
   list-style: none;
 }
-.list-works {
-  text-decoration: none;
-}
+
 .list-works:hover,
 .list-works:focus {
   color: var(--primary-white-color);
@@ -102,18 +105,44 @@ a {
 .text {
   color: var(--secondary-text-color);
 }
-.adress.version {
+
+.adress .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress .version {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .version {
-  color: var(--primary-white-color);
   background-color: #2f303a;
 }
+.adress .text {
+  background-color: #2f303a;
+}
+
+.adress .version:hover,
+.adress .version:focus {
+  color: var(--primary-white-color);
+}
+.adress .text:hover,
+.adress .text:focus {
+  color: var(--primary-white-color);
+}
+
 .go {
+  color: ;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -141,6 +170,9 @@ a {
 
 /*студио*/
 
+.hero {
+  text-align: center;
+}
 .title-hero {
   font-weight: 900;
   font-size: 44px;
