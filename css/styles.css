@@ -134,11 +134,7 @@ a {
 
 .adress .version:hover,
 .adress .version:focus {
-  color: var(--primary-white-color);
-}
-.adress .text:hover,
-.adress .text:focus {
-  color: var(--primary-white-color);
+  color: var(--accent-color);
 }
 
 .go {
